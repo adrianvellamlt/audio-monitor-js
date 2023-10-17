@@ -1,0 +1,17 @@
+{
+  "name": "audio-monitor",
+  "version": "1.0.0",
+  "description": "Monitors audio levels of a selected microphone and speaker",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx light-server -s . -w \"**/*\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adrian Vella",
+  "license": "ISC",
+  "dependencies": {
+    "getusermedia": "^2.0.1",
+    "hark": "^1.2.3",
+    "light-server": "^2.9.1"
+  }
+}

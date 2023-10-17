@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Volume Meter</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <span id="device-name">Microphone</span>
+        <div class="volumen-wrapper">
+            <div class="led"></div>
+            <div class="led"></div>
+            <div class="led"></div>
+            <div class="led"></div>
+            <div class="led"></div>
+            <div class="led"></div>
+            <div class="led"></div>
+            <div class="led"></div>
+            <div class="led"></div>
+            <div class="led"></div>
+        </div>
+
+        <div class="control-audio-wrapper">
+            <div id="audio" class="audio-control">🎤</div>
+        </div>
+    </div>
+    <!-- <script type="module" src="src/vanilla-implementation.js"></script> -->
+    <script type="module" src="src/hark-implementation.js"></script>
+    <script type="module" src="src/index.js"></script>
+</body>
+
+</html>
